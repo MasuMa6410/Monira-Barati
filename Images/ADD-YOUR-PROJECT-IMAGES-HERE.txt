@@ -1,0 +1,1 @@
+Add your portfolio images here and name them project-01.jpg through project-06.jpg, or update the image src paths in index.html.

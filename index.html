@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Graphic design portfolio of Monira Barati — visual identity, digital design, and print work.">
+  <meta name="theme-color" content="#f6f4ef">
+  <title>Monira Barati — Graphic Designer</title>
+
+  <!-- Tailwind CSS browser build for a quick, easy-to-edit portfolio.
+       For a production deployment, consider compiling Tailwind with Vite. -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Tailwind utilities now handle shared layout primitives; style.css retains exact design tokens and bespoke artwork. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header sticky top-0 z-20 px-[5.2%] backdrop-blur-[18px] border-b" id="top">
+    <nav class="nav-wrap max-w-[1320px] h-[78px] mx-auto flex items-center justify-between" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Monira Barati, home">mb<span>.</span></a>
+      <div class="desktop-nav flex gap-[clamp(20px,3.2vw,48px)] ml-auto mr-[42px]">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#process">Approach</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions flex gap-2">
+        <button class="icon-button w-[39px] h-[39px] rounded-full grid place-items-center cursor-pointer transition-colors" id="themeToggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+          <svg id="themeIcon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        </button>
+        <button class="icon-button menu-toggle w-[39px] h-[39px] rounded-full grid place-items-center cursor-pointer transition-colors" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu max-w-[1320px] mx-auto mb-3 p-3 rounded-2xl" id="mobileMenu" hidden>
+      <a href="#work">Selected work</a>
+      <a href="#about">About</a>
+      <a href="#process">Approach</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell min-h-[670px] pt-[86px] pb-[90px] grid grid-cols-[1.02fr_.8fr] items-center gap-x-[8%] relative w-[min(1320px,89.6%)] mx-auto" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow flex items-center gap-[10px] mb-[25px] uppercase font-bold"><span class="eyebrow-line"></span> Graphic designer · Herat, Afghanistan</p>
+        <h1>Making ideas<br> <span class="serif-word">visible.</span></h1>
+        <p class="hero-intro">I create thoughtful visual identities and digital designs that bring clarity, character, and purpose to a message.</p>
+        <div class="hero-links flex flex-wrap items-center gap-[25px] mt-8">
+          <a class="button button-dark inline-flex items-center gap-7 px-[19px] py-[15px] rounded-[3px] font-bold transition-transform" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+          <a class="text-link inline-flex items-center gap-[9px] font-semibold cursor-pointer" href="#contact">Let's work together <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta flex flex-wrap gap-x-7 gap-y-[18px] mt-[49px]">
+          <span><span class="status-dot"></span> Available for selected projects</span>
+          <span>Visual identity / Digital / Print</span>
+        </div>
+      </div>
+      <div class="hero-art reveal w-full max-w-[500px] justify-self-end" aria-label="Abstract graphic composition">
+        <div class="art-topline flex justify-between"><span>PORTFOLIO / 2026</span><span>FIG. 01</span></div>
+        <div class="art-canvas relative overflow-hidden">
+          <div class="art-circle"></div>
+          <div class="art-block"></div>
+          <div class="art-arc"></div>
+          <div class="art-type">FORM<br><em>& feeling</em></div>
+          <div class="art-number">01—06</div>
+          <div class="art-small">DESIGN IS<br>HOW IT WORKS.</div>
+        </div>
+        <div class="art-caption flex justify-between pt-3"><span>Shape, type, and intention.</span><span>MB—26</span></div>
+      </div>
+      <a class="scroll-cue" href="#work"><span class="scroll-line"></span> Scroll to explore</a>
+    </section>
+
+    <section class="work-section section-shell pt-20 pb-[120px] w-[min(1320px,89.6%)] mx-auto" id="work">
+      <div class="section-heading reveal flex justify-between items-end gap-10 mb-[43px]">
+        <div>
+          <p class="eyebrow flex items-center gap-[10px] mb-[25px] uppercase font-bold">01 / Selected work</p>
+          <h2>A few things<br><span class="serif-word">made with meaning.</span></h2>
+        </div>
+        <p class="section-note">A selection of visual experiments and design projects. Each piece begins with a message and takes shape through color, type, and composition.</p>
+      </div>
+
+      <div class="filter-row reveal flex flex-wrap gap-2 pb-[22px] mb-[10px]" role="group" aria-label="Filter projects by category">
+        <button class="filter-chip active inline-flex items-center gap-[10px] rounded-full px-[14px] py-[9px] cursor-pointer transition-all" data-filter="all" type="button" aria-pressed="true">All work <span>06</span></button>
+        <button class="filter-chip inline-flex items-center gap-[10px] rounded-full px-[14px] py-[9px] cursor-pointer transition-all" data-filter="social" type="button" aria-pressed="false">Social media</button>
+        <button class="filter-chip inline-flex items-center gap-[10px] rounded-full px-[14px] py-[9px] cursor-pointer transition-all" data-filter="brand" type="button" aria-pressed="false">Brand identity</button>
+        <button class="filter-chip inline-flex items-center gap-[10px] rounded-full px-[14px] py-[9px] cursor-pointer transition-all" data-filter="print" type="button" aria-pressed="false">Print</button>
+        <button class="filter-chip inline-flex items-center gap-[10px] rounded-full px-[14px] py-[9px] cursor-pointer transition-all" data-filter="digital" type="button" aria-pressed="false">Digital design</button>
+      </div>
+
+      <!-- PROJECT TEMPLATE:
+           1) Replace the image src with your own image file.
+           2) Edit the title, category, description, and deliverables.
+           3) Set data-gallery to a Google Drive folder / case-study URL to show the "View full project" link.
+           If a project has only one image, leave data-gallery="" and the extra link stays hidden. -->
+      <div class="project-grid grid grid-cols-2 gap-x-[30px] gap-y-[58px]" id="projectGrid">
+        <article class="project-card reveal min-w-0" data-category="social print">
+          <button class="project-image image-poster poster-one block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-01.jpg" data-alt="Social media and brochure design preview" aria-label="Preview Social Media and Brochure Design">
+            <img src="./Images/project-01.jpg" alt="Social media and brochure design preview" loading="lazy">
+            <span class="image-fallback"><span class="fallback-kicker">CAMPAIGN / 01</span><span class="fallback-title">Make<br>it matter.</span><span class="fallback-shape"></span><span class="fallback-footer">SOCIAL + PRINT</span></span>
+            <span class="image-index">01 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Social media · Print</span><span>2026</span></div>
+            <h3>Social Media &amp; Brochure Design</h3>
+            <p>A cohesive set of campaign visuals designed to introduce a brand, communicate its message, and stay consistent across digital and print touchpoints.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>05 Instagram posts</span><span>01 story</span><span>01 brochure</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal min-w-0" data-category="brand">
+          <button class="project-image image-poster poster-two block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-02.jpg" data-alt="Brand identity design preview" aria-label="Preview Brand Identity">
+            <img src="./Images/project-02.jpg" alt="Brand identity design preview" loading="lazy">
+            <span class="image-fallback"><span class="fallback-kicker">IDENTITY / 02</span><span class="brand-monogram">a<span>°</span></span><span class="brand-name">atelier<br><em>objects for living</em></span><span class="brand-swatch"></span></span>
+            <span class="image-index">02 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Brand identity</span><span>2026</span></div>
+            <h3>Brand Identity Concept</h3>
+            <p>A considered visual identity concept built around a distinctive mark, a restrained palette, and a flexible typographic system.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>Logo system</span><span>Color palette</span><span>Typography</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal min-w-0" data-category="social">
+          <button class="project-image image-poster poster-three block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-03.jpg" data-alt="Social media campaign design preview" aria-label="Preview Social Media Campaign">
+            <img src="./Images/project-03.jpg" alt="Social media campaign design preview" loading="lazy">
+            <span class="image-fallback"><span class="campaign-number">03</span><span class="campaign-heading">A little<br>more <em>human.</em></span><span class="campaign-circle"></span><span class="campaign-footer">AWARENESS CAMPAIGN</span></span>
+            <span class="image-index">03 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Social media</span><span>2026</span></div>
+            <h3>Social Media Campaign</h3>
+            <p>A set of scroll-stopping social assets that uses strong hierarchy and a clear visual rhythm to make a campaign message easy to understand.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>04 feed posts</span><span>02 story designs</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal min-w-0" data-category="print">
+          <button class="project-image image-poster poster-four block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-04.jpg" data-alt="Editorial and print design preview" aria-label="Preview Editorial Print Design">
+            <img src="./Images/project-04.jpg" alt="Editorial and print design preview" loading="lazy">
+            <span class="image-fallback"><span class="editorial-top">FIELD NOTES / ISSUE 04</span><span class="editorial-title">The art<br>of <em>slowing</em><br>down.</span><span class="editorial-circle"></span><span class="editorial-bottom">A SMALL GUIDE TO EVERYDAY RITUALS</span></span>
+            <span class="image-index">04 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Print design</span><span>2025</span></div>
+            <h3>Editorial &amp; Print Design</h3>
+            <p>An editorial layout exploring readable type, balanced whitespace, and a calm visual language across a printed publication.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>Cover design</span><span>Inside spreads</span><span>Print layout</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal min-w-0" data-category="digital">
+          <button class="project-image image-poster poster-five block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-05.jpg" data-alt="Digital design and presentation preview" aria-label="Preview Digital Design">
+            <img src="./Images/project-05.jpg" alt="Digital design and presentation preview" loading="lazy">
+            <span class="image-fallback"><span class="digital-label">DIGITAL STUDY / 05</span><span class="digital-shape shape-a"></span><span class="digital-shape shape-b"></span><span class="digital-word">PLAY<br><em>with space.</em></span><span class="digital-caption">LAYOUT / COLOR / TYPE</span></span>
+            <span class="image-index">05 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Digital design</span><span>2025</span></div>
+            <h3>Digital Design Exploration</h3>
+            <p>A digital-first composition exploring color, visual hierarchy, and a flexible layout system for a modern online audience.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>Key visual</span><span>Digital assets</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal min-w-0" data-category="brand social">
+          <button class="project-image image-poster poster-six block w-full p-0 relative overflow-hidden border-0 cursor-zoom-in text-left" type="button" data-preview="Images/project-06.jpg" data-alt="Packaging and brand application preview" aria-label="Preview Packaging and Brand Application">
+            <img src="./Images/project-06.jpg" alt="Packaging and brand application preview" loading="lazy">
+            <span class="image-fallback"><span class="packaging-top">GOOD THINGS / SMALL BATCH</span><span class="packaging-sun"></span><span class="packaging-title">Sunday<br>Supply</span><span class="packaging-bottom">MADE WITH CARE</span></span>
+            <span class="image-index">06 / 06</span><span class="preview-mark" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info pt-[18px] px-px">
+            <div class="project-overline flex justify-between gap-[15px]"><span>Branding · Packaging</span><span>2025</span></div>
+            <h3>Packaging &amp; Brand Application</h3>
+            <p>A warm, approachable brand application concept showing how a visual identity can carry consistently across physical and digital materials.</p>
+            <div class="deliverables flex flex-wrap gap-[7px] mt-[15px]"><span>Packaging</span><span>Brand applications</span></div>
+            <a class="project-link inline-flex items-center gap-3 mt-[17px] pb-1 font-bold" href="#" data-gallery-link hidden>View full project <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="work-footnote">More work is always in progress. Selected projects shown here represent different approaches, formats, and visual directions.</p>
+    </section>
+
+    <section class="about-section py-[105px] border-y" id="about">
+      <div class="section-shell about-layout w-[min(1320px,89.6%)] mx-auto grid grid-cols-[.75fr_1fr] gap-[12%] items-center">
+        <div class="about-stamp reveal relative flex flex-col justify-between p-[30px] border" aria-hidden="true"><span>MB</span><span>DESIGN<br>WITH INTENTION</span><span class="stamp-circle"></span></div>
+        <div class="about-copy reveal">
+          <p class="eyebrow flex items-center gap-[10px] mb-[25px] uppercase font-bold">02 / A little about me</p>
+          <h2>Good design is<br><span class="serif-word">clear, not loud.</span></h2>
+          <p class="about-lead">I'm Monira, a graphic designer interested in the space between a strong idea and a clear visual message.</p>
+          <p class="body-copy">My work explores visual identity, social media design, and print. I enjoy bringing structure to ideas through typography, thoughtful color, and details that make a design feel intentional. I'm always learning, experimenting, and looking for ways to make my work more useful and more considered.</p>
+          <div class="values-row flex flex-wrap gap-2 mt-6"><span>Curiosity</span><span>Clarity</span><span>Care</span><span>Consistency</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-section section-shell pt-[115px] pb-[120px] w-[min(1320px,89.6%)] mx-auto" id="process">
+      <div class="section-heading reveal flex justify-between items-end gap-10 mb-[43px]">
+        <div><p class="eyebrow flex items-center gap-[10px] mb-[25px] uppercase font-bold">03 / My approach</p><h2>Thoughtful from<br><span class="serif-word">first idea to final detail.</span></h2></div>
+        <p class="section-note">A simple process keeps each design grounded in its purpose, not just its appearance.</p>
+      </div>
+      <div class="process-grid grid grid-cols-4 border-t mt-[53px]">
+        <article class="process-step reveal pt-[25px] pr-[25px]"><span class="step-number">01</span><h3>Understand</h3><p>Clarify the audience, purpose, message, and practical needs before choosing a visual direction.</p></article>
+        <article class="process-step reveal pt-[25px] pr-[25px]"><span class="step-number">02</span><h3>Explore</h3><p>Test references, typography, color, and composition to find a direction that feels right.</p></article>
+        <article class="process-step reveal pt-[25px] pr-[25px]"><span class="step-number">03</span><h3>Refine</h3><p>Improve hierarchy, spacing, and consistency through feedback and careful iteration.</p></article>
+        <article class="process-step reveal pt-[25px] pr-[25px]"><span class="step-number">04</span><h3>Deliver</h3><p>Prepare polished, purposeful designs in the formats needed for their real-world use.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell pb-[105px] w-[min(1320px,89.6%)] mx-auto" id="contact">
+      <div class="contact-card reveal min-h-[380px] relative overflow-hidden grid grid-cols-[.65fr_1fr] gap-[5%] items-center p-[clamp(30px,6vw,75px)]">
+        <div class="contact-decoration self-stretch flex flex-col justify-center" aria-hidden="true">LET'S<br>MAKE<br><em>meaning.</em></div>
+        <div class="contact-content relative z-[1]">
+          <p class="eyebrow flex items-center gap-[10px] mb-[25px] uppercase font-bold">04 / Contact</p>
+          <h2>Have a good idea?<br><span class="serif-word">Let's give it a form.</span></h2>
+          <p>For design projects, collaborations, or just to say hello, I'd love to hear from you.</p>
+          <div class="contact-actions flex flex-wrap items-center gap-[23px] mt-6">
+            <a class="button button-light inline-flex items-center gap-7 px-[19px] py-[15px] rounded-[3px] font-bold transition-transform" href="mailto:Monirabarati0@gmail.com">Email Monira <span>↗</span></a>
+            <button class="text-link copy-email inline-flex items-center gap-[9px] font-semibold cursor-pointer" id="copyEmail" type="button">Copy email address <span>↗</span></button>
+          </div>
+          <p class="copy-message" id="copyMessage" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer w-[min(1320px,89.6%)] min-h-[95px] mx-auto flex items-center justify-between gap-5">
+    <a class="wordmark" href="#home">mb<span>.</span></a>
+    <p>© <span id="year"></span> Monira Barati. Made with intention.</p>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="preview-modal fixed z-[50] inset-0 flex flex-col items-center justify-center gap-[14px] p-[5vw]" id="previewModal" role="dialog" aria-modal="true" aria-label="Project image preview" hidden>
+    <button class="modal-close absolute top-[22px] right-[25px] w-[42px] h-[42px] rounded-full cursor-pointer" id="modalClose" type="button" aria-label="Close image preview">×</button>
+    <img id="modalImage" src="" alt="">
+    <p id="modalCaption"></p>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
